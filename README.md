@@ -5,7 +5,7 @@ Deploy a Static Website Using GitHub Pages
 I am Hosting a static website using HTML and CSS for event planning called "EventPlanner" website via GitHub Pages
 
 ## Deployed Website
-Click here to view: [https://yourusername.github.io](https://yourusername.github.io)
+Click here to view: [https://manyamackol2.github.io](https://manyamackol2.github.io)
 
 ## Features
 - HTML5 & CSS3
