@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>EventPlanner - Your Event Planning Partner</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EventPlanner | Event Planning</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-  <header class="header">
-    <div class="logo">EventPlanner</div>
+  <header class="hero">
     <nav class="navbar">
+      <h1 class="logo">EventPlanner</h1>
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <div class="hero-content">
+      <h2>Making Your Events Memorable</h2>
+      <p>We plan, you celebrate!</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
   </header>
 
-  <section class="hero">
-    <h1>Plan Your Event with EventPlanner</h1>
-    <p>From weddings to corporate gatherings, we make every moment unforgettable.</p>
-    <a href="#" class="cta-btn">Book a Free Consultation</a>
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Weddings</h3>
+        <p>Dream weddings tailored to your style and budget.</p>
+      </div>
+      <div class="card">
+        <h3>Corporate Events</h3>
+        <p>Professional event planning for all business needs.</p>
+      </div>
+      <div class="card">
+        <h3>Birthday Parties</h3>
+        <p>Fun-filled and themed parties for all age groups.</p>
+      </div>
+    </div>
   </section>
 
-  <footer class="footer">
-    <p>Connect with us on social media:</p>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+     <p>Connect with us on social media:</p>
     <div class="social-icons">
       <a href="#">Facebook</a>
       <a href="#">Instagram</a>
       <a href="#">LinkedIn</a>
     </div>
   </footer>
-
 </body>
 </html>
